@@ -1,0 +1,6 @@
+{
+    "require": {
+        "vlucas/phpdotenv": "^5.5",
+        "utopia-php/locale": "^0.6.0"
+    }
+}
