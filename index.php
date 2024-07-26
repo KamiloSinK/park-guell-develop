@@ -46,7 +46,7 @@
                     </div>
                     <div class="col-lg-6 order-1 order-md-0">
                         <div class="future__img" data-aos="zoom-in">
-                            <i><img src="<?= $_ENV['WEB_URL'] ?>assets/img/11.jpg" alt=""></i>
+                            <i><img src="<?= $_ENV['WEB_URL'] ?>assets/img/12.jpg" alt=""></i>
                             <div class="future__img__content"></div>
                         </div>
                     </div>
