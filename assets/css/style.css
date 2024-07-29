@@ -469,7 +469,7 @@ li {
 
 /*============hero Area Start =============*/
 
-.hero-area {padding: 100px 0;background-size: cover;background-position: center;position: relative;color: #fff;padding-top: 193px;}
+.hero-area {padding: 100px 0;background-size: cover;background-position: center;position: relative;color: #fff;padding-top: 193px; padding-top: 32px}
 
 .container {
     max-width: 1280px;

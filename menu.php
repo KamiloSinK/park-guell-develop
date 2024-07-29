@@ -27,7 +27,7 @@
             </div>
             <div class="col-lg-2 col-md-3 col-6 d-none d-md-block">
                 <div class="logo-area">
-                    <a href="<?= !!isset($scrollMenu) && !!$scrollMenu ? '' : $_ENV['WEB_URL'] ?>"><img src="<?= $_ENV['WEB_URL'] ?>assets/img/logo.png" alt="site logo"></a>
+                    <a href="<?= !!isset($scrollMenu) && !!$scrollMenu ? '' : $_ENV['WEB_URL'] ?>"><img src="<?= $_ENV['WEB_URL'] ?>assets/img/logo.png" alt="site logo" style="height: 4vw"></a>
                 </div>
             </div>
             <div class="col-lg-8 col-md-7  d-none d-md-block text-right">
