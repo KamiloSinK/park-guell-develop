@@ -17,7 +17,7 @@
                     <div class="col-lg-12" data-aos="fade-right">
                         <div class="hero__title">
                             <h3><?= __('form.title_1') ?></h3>
-                            <h1><?= __('form.title_2') ?> <span><?= __('form.title_3') ?></span> </h1>
+                            <h1><?= __('form.title_2') ?></h1>
                         </div>
                         <?php require 'form_header.php' ?>
                     </div>
@@ -96,8 +96,8 @@
                     <div class="row">
                         <div class="col-lg-12">
                             <div>
+                                <h1 data-aos="fade-up"><?= __('gallery.title_1') ?></h1>
                                 <span data-aos="fade-up"><?= __('gallery.title_2') ?></span>
-
                                 <p data-aos="fade-up"><?= __('gallery.text_1') ?></p>
                                 <p data-aos="fade-up"><?= __('gallery.text_2') ?></p>
                                 <p data-aos="fade-up"><?= __('gallery.text_3') ?></p>
@@ -156,7 +156,7 @@
                     </div>
                     <div class="col-lg-12" data-aos="fade-up">
                         <div class="gallery__btn">
-                            <a href="#" class="thm_btn"><?= __('gallery.button_2') ?> <img src="<?= $_ENV['WEB_URL'] ?>assets/img/right-arrow.svg" class="invert" alt=""></a>
+                            <a href="#" class="thm_btn"><?= __('gallery.button_2') ?> <img src="<?= $_ENV['WEB_URL'] ?>assets/img/right-arrow.svg" alt=""></a>
                         </div>
                     </div>
                 </div>
@@ -175,9 +175,12 @@
                     <div class="col-lg-6" data-aos="fade-right">
                         <div class="Explora__content">
                             <h1><?= __('explore.title_1') ?></h1>
-
                             <p><?= __('explore.text_1') ?></p>
                             <p><?= __('explore.text_2') ?></p>
+                            <p><?= __('explore.text_3') ?></p>
+                            <p><?= __('explore.text_4') ?></p>
+                            <p><?= __('explore.text_5') ?></p>
+                            <p><?= __('explore.text_6') ?></p>
                         </div>
                     </div>
                 </div>
@@ -300,11 +303,11 @@
                                 </div>
                                 <div class="accordion-item" data-aos="fade-up">
                                     <h2 class="accordion-header" id="headingSix">
-                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseXis">
                                             <i><img src="<?= $_ENV['WEB_URL'] ?>assets/img/form-img-6.svg" alt=""></i> <?= __('location.car.title') ?>
                                         </button>
                                     </h2>
-                                    <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+                                    <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                         <div class="accordion-body">
                                             <ul>
                                                 <li>
@@ -345,8 +348,6 @@
                                 <li><?= __('rules.text_13') ?></li>
                                 <li><?= __('rules.text_14') ?></li>
                                 <li><?= __('rules.text_15') ?></li>
-                                <li><?= __('rules.text_16') ?></li>
-                                <li><?= __('rules.text_17') ?></li>
                             </ul>
                         </div>
                     </div>
