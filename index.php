@@ -41,7 +41,7 @@
                             <p><?= __('content.main.text_1') ?></p>
                             <p><?= __('content.main.text_2') ?></p>
                             <p><?= __('content.main.text_3') ?></p>
-                            <a href="#" class="thm_btn"><?= __('content.main.button_1') ?> <img src="<?= $_ENV['WEB_URL'] ?>assets/img/right-arrow.svg" alt=""></a>
+                            <a href="#" class="thm_btn"><?= __('content.main.button_1') ?> <img src="<?= $_ENV['WEB_URL'] ?>assets/img/right-arrow.svg" class="invert" alt=""></a>
                         </div>
                     </div>
                     <div class="col-lg-6 order-1 order-md-0">
@@ -120,7 +120,7 @@
         <!---------gallery Section START ---------->
         <section class="gallery-area overflow-hidden">
             <div class="gallery__btn d-md-none">
-                <a href="#" class="thm_btn"><?= __('gallery.button_1') ?> <img src="<?= $_ENV['WEB_URL'] ?>assets/img/right-arrow.svg" alt=""></a>
+                <a href="#" class="thm_btn"><?= __('gallery.button_1') ?> <img src="<?= $_ENV['WEB_URL'] ?>assets/img/right-arrow.svg" class="invert" alt=""></a>
             </div>
             <div class="container d-none d-md-block">
                 <div class="row">
@@ -156,7 +156,7 @@
                     </div>
                     <div class="col-lg-12" data-aos="fade-up">
                         <div class="gallery__btn">
-                            <a href="#" class="thm_btn"><?= __('gallery.button_2') ?> <img src="<?= $_ENV['WEB_URL'] ?>assets/img/right-arrow.svg" alt=""></a>
+                            <a href="#" class="thm_btn"><?= __('gallery.button_2') ?> <img src="<?= $_ENV['WEB_URL'] ?>assets/img/right-arrow.svg" class="invert" alt=""></a>
                         </div>
                     </div>
                 </div>

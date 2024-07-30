@@ -119,6 +119,10 @@ ul {
 li {
   list-style: none; }
 
+.invert {
+  filter: invert(1);
+}
+
 .pb_150{padding-bottom: 150px;}
 .pb_100{padding-bottom: 100px;}
 .pb_50{padding-bottom: 50px;}
@@ -142,8 +146,8 @@ li {
     background: var(--mainColor);
     gap: 12px;
     border-radius: 3.75px;
-    color: #466977;
     color: #fff;
+    color: #000;
     font-size: var(--f18);
     font-weight: 700;
     padding: 0 30px;
@@ -508,6 +512,7 @@ li {
 .hero__form p {
     padding: 12px 20px;
     background: var(--mainColor);
+    /* color: #000; */
     border-radius: 3.75px;
     display: flex;
     align-items: center;
@@ -561,6 +566,11 @@ li {
     font-size: 24px;
     line-height: 1;
 }
+
+.Ticket_purchase:not(.disabled) img{
+filter: invert(1);
+}
+
 .counter__decrement {flex-shrink: 0;height: 100%;width: 20px;}
 .counter__input {width: 100%;text-align: center;border: none;background: no-repeat;}
 .counter__increment {flex-shrink: 0;height: 100%;width: 20px;}
@@ -938,6 +948,7 @@ footer.footer-area.f__home {
 .contact__content h1 {
     font-family: 'Roboto';
     color: var(--mainColor);
+    color: #000;
 }
 
 .contact__content p {
@@ -993,6 +1004,7 @@ footer.footer-area.f__home {
     font-weight: 700;
     font-size: var(--f22);
     color: var(--mainColor);
+    color: #000;
     display: flex;
     align-items: center;
     gap: 10px;
@@ -1008,6 +1020,7 @@ footer.footer-area.f__home {
 .contact__form h3 span {
     display: block;
     color: var(--mainColor);
+    color: #000;
 }
 .input__blk {margin-bottom: 20px;}
 
